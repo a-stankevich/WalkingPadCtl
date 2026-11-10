@@ -23,3 +23,7 @@ Protocol notes learned while testing (A1 Pro):
   Stopping uses the start command (`F7 A2 04 01`), which toggles the belt off while running.
 - After start the pad counts down (state 9 → 7) before state 1 (running); speed is set after that.
 - The first query after connecting is sometimes ignored, so it is retried.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
